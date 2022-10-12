@@ -8,7 +8,6 @@ function App() {
   useEffect(() => {
     getDiscussion();
   }, []);
-const a ="A"
   const getDiscussion = () => {
     return fetch(domain + "/discussions")
       .then((res) => res.json())
