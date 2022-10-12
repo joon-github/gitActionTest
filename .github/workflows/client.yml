@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install dependencies
-        run: npm intall
+        run: npm install
         working-directory: ./my-agora-states-client
 
       - name: Build
